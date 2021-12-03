@@ -3,7 +3,7 @@ $ID = $_POST["Nombre"];
 $POSTS = $_POST["Contraseña"];
 echo $ID;
 echo $POST;
-$db = new mysqli("localhost", "Stefan", "234zysmn81ELPEPE", "Redsocial");
+$db = new mysqli("localhost", "Stefan", "1234", "Redsocial");
 $sql="SELECT * FROM usuarios)";
 $result = $db->query($sql);
 while ($row = $result->fetch_assoc()) {
