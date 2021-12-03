@@ -1,7 +1,7 @@
 <?php
     $Nombre= "pepitok";
     $Contraseña ="12345fewffrrwrf"; 
-    $db = new mysqli ("localhost","Stefan","234zysmn81ELPEPE","redsocial");
+    $db = new mysqli ("localhost","Stefan","1234","redsocial");
     $password_md5 = md5($Contraseña);
     #comprobación de si: el usuario ya existe que no añadamos el registro.
     $existeSql = "select * from usuarios where nombre='".$Nombre. "' and Contraseña='".$password_md5."';";
